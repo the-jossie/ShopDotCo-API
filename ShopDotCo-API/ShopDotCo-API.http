@@ -1,0 +1,11 @@
+@ShopDotCo-API_HostAddress = https://localhost:7237
+@ShopDotCo_API_HostAddress = http://localhost:5130
+
+GET {{ShopDotCo_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{ShopDotCo-API_HostAddress}}/weatherforecast
+
+###
